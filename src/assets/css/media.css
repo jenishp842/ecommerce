@@ -1,0 +1,757 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    nav a.btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .side-img {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .flex-grow-0 {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    #content.login {
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+    }
+    #content.login .row {
+        flex: 1;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .searchDrop {
+        min-width: 270px;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .navbar-static-top .dropdown-menu {
+        right: -77px;
+        /* left: 0; */
+        /* width: 270px; */
+    }
+    .navbar-static-top .dropdown-menu.notification {
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .newDoc {
+        display: none;
+    }
+    /* -------------------------------------18-sep */
+    form.search .form-group.w-30 {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .btn-primary,
+    a.btn-primary {
+        min-width: auto;
+        white-space: initial;
+    }
+    #top-search,
+    .search .form-group {
+        /* max-width: 110px; */
+    }
+    .navbar-form-custom .form-control {
+        /* padding: 10px 10px 10px 40px; */
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .name {
+        /* max-width: 60px; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar.navbar-static-top {
+        width: 100%;
+    }
+    .navbar.navbar-static-top p.name {
+        display: none;
+    }
+    /* .navbar-right>li:first-child {
+        display: block;
+    } */
+    .dash-btn {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* #searchmodal {
+        display: none !important;
+    } */
+}
+
+@media only screen and (max-width: 860px) {
+    .navbar.navbar-static-top p.name {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .stat-percent {
+        font-size: 20px;
+    }
+    .single-header .navbar-brand {
+        max-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 558px) {
+    .footer>div {
+        justify-self: center;
+        margin: 0 auto;
+    }
+    .searchDrop {
+        min-width: 270px;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+}
+
+@media only screen and (min-width: 492px) {
+    .fixHeight {
+        max-height: calc(100vh - 300px)
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .profile p.name {
+        display: none;
+    }
+    .profile .dropdown-menu {
+        right: 0;
+    }
+    .navbar-brand {
+        max-width: 158px;
+    }
+    .search>a.btn[type="submit"] {
+        display: none;
+    }
+    /* #top-search {
+        max-width: 110px;
+    } */
+    .selectTemp #top-search {
+        max-width: 100%;
+    }
+    /* ------------------18-sep */
+    form.search .form-group.w-30 {
+        width: 100% !important;
+    }
+    /* ------------------/18-sep */
+}
+
+@media only screen and (max-width: 490px) {
+    #top-search {
+        max-width: 110px;
+    }
+}
+
+@media only screen and (max-width:426px) {}
+
+@media only screen and (max-width:1366px) {
+    .log-container {
+        padding: 2rem !important;
+    }
+    .log-container h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        font-size: 1.7rem !important;
+    }
+    .mt-5 {
+        margin-top: 1.8rem !important;
+    }
+    .mb-5 {
+        margin-bottom: 1.8rem !important;
+    }
+    .my-5 {
+        margin-top: 1.8rem !important;
+        margin-bottom: 1.8rem !important;
+    }
+    .mb-4 {
+        margin-bottom: 1.2rem !important;
+    }
+    .mt-4 {
+        margin-top: 1.2rem !important;
+    }
+    .my-4 {
+        margin-bottom: 1.2rem !important;
+        margin-top: 1.2rem !important;
+    }
+    .pb-4 {
+        padding-bottom: 1.2rem !important;
+    }
+    .pt-4 {
+        padding-top: 1.2rem !important;
+    }
+    .py-4 {
+        padding-bottom: 1.2rem !important;
+        padding-top: 1.2rem !important;
+    }
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .beforel>a.btn {
+        font-size: 1rem;
+        width: 130px;
+    }
+    .f-20,
+    .acc-link {
+        font-size: 1rem !important;
+    }
+    #login-form .form-control,
+    #signUp-form .form-control {
+        padding: .8rem !important;
+    }
+    .side-img h3 {
+        font-size: 1.5rem !important;
+    }
+    .side-img img {
+        max-width: 220px;
+    }
+    .btn-primary,
+    a.btn-primary {
+        padding: .6rem !important;
+    }
+    .login-btn {
+        font-size: 1rem !important;
+    }
+    #content.login {
+        height: 75vh;
+    }
+    .f-14 {
+        font-size: .9rem !important;
+    }
+    .f-16 {
+        font-size: 1rem !important;
+    }
+    .f-20 {
+        font-size: 1.1rem !important;
+    }
+    .f-24 {
+        font-size: 1.4rem !important;
+    }
+    .f-26 {
+        font-size: 1.5rem !important;
+    }
+    .f-28 {
+        font-size: 1.6rem !important;
+    }
+    .f-34 {
+        font-size: 1.8rem !important;
+    }
+    .f-40 {
+        font-size: 2rem !important;
+    }
+    .content-before-login .fixHeight {
+        max-height: calc(100vh - 390px);
+    }
+}
+
+
+/* --------------------------14-sep */
+
+@media only screen and (max-width:648px) {
+    #profile-tab #nav-tab .nav-item {
+        width: 100%;
+    }
+}
+
+
+/* --------------------------15-sep */
+
+@media only screen and (max-width:1366px) {
+    .pro-container {
+        position: relative;
+        height: 100px;
+        width: 100px;
+    }
+    .pro-detail {
+        margin-top: .5rem !important;
+    }
+    #profile-tab .nav-item {
+        font-size: 16px;
+    }
+    .pro-detail h5 {
+        font-size: 1rem !important;
+    }
+    #profile.containerBox>.flex-wrap {
+        margin-bottom: 3rem !important;
+    }
+    #profile .f-16 {
+        font-size: .9rem !important;
+    }
+    #profile .f-18 {
+        font-size: 1rem !important;
+    }
+    .propic {
+        max-width: 35px;
+    }
+    .nav.metismenu>li:first-child {
+        min-height: 54px;
+    }
+    .navbar.navbar-static-top {
+        min-height: auto;
+    }
+    .nav.metismenu>li:nth-child(2) {
+        margin-top: 65px;
+    }
+    .nav.metismenu>li:first-child {
+        width: 220px;
+    }
+    #page-wrapper {
+        margin: 0 0 0 220px;
+    }
+    .navbar.navbar-static-top {
+        width: calc(100% - 220px);
+    }
+    .minimalize-styl-2 {
+        margin: 5px 0;
+    }
+    .wrapper-content {
+        padding: 70px 20px 130px;
+    }
+    .ibox-title {
+        min-width: 50px;
+        min-height: 50px;
+        padding-top: .7rem;
+    }
+    /* ---------------------------------------------------17-sep */
+    .f-14 {
+        font-size: 12px !important;
+    }
+    .f-16 {
+        font-size: 13px !important;
+    }
+    .f-18 {
+        font-size: 14px !important;
+    }
+    .f-20 {
+        font-size: 16px !important;
+    }
+    .f-24 {
+        font-size: 20px !important;
+    }
+    .f-26 {
+        font-size: 22px !important;
+    }
+    .f-28 {
+        font-size: 24px !important;
+    }
+    .f-34 {
+        font-size: 30px !important;
+    }
+    .f-40 {
+        font-size: 30px !important;
+    }
+    .plr-100 {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+    .p-5 {
+        padding: 2rem !important;
+    }
+    .modal-dialog {
+        max-width: 530px;
+    }
+    .modal-header,
+    .modal-footer {
+        border: 0;
+        padding: .5rem 1rem;
+    }
+    .modal-body img {
+        max-width: 60px;
+    }
+    .profile .dropdown-item img {
+        max-height: 22px;
+    }
+    .nav.navbar-top-links a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /* dashboard */
+    .ibox-title img {
+        max-height: 30px;
+    }
+    .ibox-title img {
+        max-width: 25px;
+    }
+    .ibox {
+        min-height: 110px;
+    }
+    /* sidemenu */
+    .nav.metismenu>li:first-child {
+        max-height: 55px;
+    }
+    .nav>li>a {
+        padding: 10px 15px 10px 55px;
+        font-size: 14px;
+    }
+    img.default,
+    img.hover {
+        top: 13px;
+        max-height: 16px;
+        left: 25px;
+    }
+    .count-info .label {
+        top: 0px;
+    }
+    body.mini-navbar .navbar-brand img.mini {
+        max-width: 40px;
+    }
+    .navbar-static-side {
+        width: 220px;
+    }
+    /* topbar */
+    .searchDrop .form-group {
+        margin-bottom: 5px;
+    }
+    .searchDrop {
+        min-width: 460px;
+    }
+    form.search .my-tagsinput {
+        padding: .5rem .9rem;
+    }
+    .my-tagsinput input {
+        font-size: 12px !important;
+    }
+    .searchDrop button {
+        padding: .3rem !important;
+    }
+    .tag {
+        font-size: 12px;
+    }
+    .navbar-form-custom .form-control {
+        height: 36px;
+    }
+    .filter {
+        padding: 8px 7px;
+    }
+    nav a.btn {
+        font-size: 16px;
+    }
+    form.search a.btn {
+        min-height: 36px;
+    }
+    .navbar-right .btn-border {
+        /* padding: 5px 10px !important; */
+    }
+    /* footer */
+    .footer a img {
+        max-width: 25px;
+    }
+    /* ---------------------------------------------------/17-sep */
+    /* ---------------------------------------------------18-sep */
+    /* editTemp */
+    .table-title h2 {
+        font-size: 20px;
+    }
+    .plus-btn {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: #f27136;
+        color: #fff;
+        padding: .3rem !important;
+    }
+    #createTemp .btn-primary {
+        padding: 0.375rem 0.75rem !important;
+    }
+    #createTemp .w-70 {
+        max-width: 100%;
+    }
+    #createTemp .w-75 {
+        width: 100% !important;
+    }
+    .nav-pills .nav-link {
+        padding: 0.3rem 1rem;
+    }
+    .nav-pills .nav-link,
+    .nav-pills>.nav-link {
+        font-size: 14px;
+    }
+    .fixHeight {
+        padding-right: 10px;
+    }
+    .fixHeight {
+        max-height: calc(100vh - 300px) !important;
+    }
+    .card-deck {
+        margin-right: 0;
+    }
+    .card-deck .card {
+        flex: inherit;
+        min-width: 120px;
+        min-height: 250px;
+        max-width: 120px;
+        max-height: 250px;
+    }
+    .card-img-top {
+        width: 100%;
+        min-width: 120px;
+        min-height: 180px;
+        max-width: 120px;
+        max-height: 180px;
+    }
+    .btn {
+        font-size: .8rem;
+    }
+    .containerBox {
+        padding: 20px;
+    }
+    /* ---------------------------------------------------/18-sep */
+    /* ---------------------------------------------21-sep */
+    .table-responsive.fixHeight {
+        max-height: calc(100vh - 230px) !important;
+    }
+    #createTemplateleft {
+        padding-left: 2rem !important;
+    }
+    #createTemplateleft .fixHeight,
+    #editTemplateleft .fixHeight {
+        min-height: calc(100vh - 250px) !important;
+    }
+    #createTemplateright .tab-content,
+    #editTemplateright .tab-content {
+        min-height: calc(100vh - 250px) !important;
+        padding-left: 1rem;
+    }
+    table.dataTable tbody tr td {
+        padding: 10px 8px;
+        font-size: .9rem;
+    }
+    /* ---------------------------------------------/21-sep */
+    /* ---------------------------------------------/22-sep */
+    .modal .custom-control-label {
+        font-size: .9rem;
+    }
+    .form-group {
+        margin-bottom: .9rem;
+    }
+    body {
+        font-size: .9rem;
+    }
+    .form-control,
+    .searchDrop .form-control {
+        padding: 0.8rem;
+    }
+    .notification .dropdown-menu {
+        width: 310px;
+    }
+    /* ---------------------------------------------/22-sep */
+    /* ---------------------------------------------24-sep */
+    .pl-5,
+    .px-5 {
+        padding-left: 2rem !important;
+    }
+    #viewTemp .fixHeight {
+        max-height: calc(100vh - 210px) !important;
+    }
+    .puls-drop {
+        /* bottom: 25px; */
+        bottom: 5%;
+        right: 30px;
+    }
+    .modal-content {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+    }
+    /* ---------------------------------------------/24-sep */
+    /* ---------------------------------------------25-sep */
+    .nav-pills .nav-link,
+    .nav-pills>.nav-link {
+        min-width: 127px;
+        padding: .3rem;
+    }
+    table tr td a {
+        display: inline-block;
+    }
+    table tr td a img.img-fluid {
+        max-width: 15px;
+    }
+    table.dataTable tbody tr td {
+        padding: 10px 8px;
+    }
+    /* ---------------------------------------------/25-sep */
+    /* ---------------------------------------------28-sep */
+    .apiContent {
+        min-height: calc(100vh - 250px);
+    }
+    /* ---------------------------------------------/28-sep */
+    /* ---------------------------------------------29-sep */
+    .mr-15 {
+        margin-right: 15px;
+    }
+    .left-container .fixHeight {
+        min-height: 640px !important;
+    }
+    /* ---------------------------------------------/29-sep */
+    /* ---------------------------------------------30-sep */
+    #tikDetail .fixHeight {
+        max-height: calc(100vh - 170px) !important;
+    }
+    .tor-report .nav-pills .nav-item a {
+        min-width: 65px;
+        padding: .2rem;
+    }
+    .tor-report .nav-pills .nav-item .dateinput input {
+        min-width: 100px !important;
+    }
+    .ox-scroll {
+        overflow-x: auto;
+    }
+    /* ---------------------------------------------/30-sep */
+    /* ---------------------------------------------5-oct */
+    .tikReport .fixHeight {
+        max-height: calc(100vh - 260px) !important;
+    }
+    .chat-img {
+        max-width: 40px;
+    }
+    /* ---------------------------------------------/5-oct */
+}
+
+
+/* 
+@media only screen and (min-width: 1366px) {
+    #createTemplateright .nav {
+        border-top: 0px solid #dadada;
+        padding-top: 0px;
+    }
+} */
+
+.single-header .navbar.navbar-static-top {
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    #page-wrapper {
+        margin: 0 0 0 0px;
+    }
+    .navbar.navbar-static-top {
+        width: 100%;
+    }
+    .navbar-right {
+        margin-right: 0;
+    }
+    .f-40 {
+        font-size: 1.7rem !important;
+    }
+    .stat-percent.f-24 {
+        font-size: 1.2rem !important;
+    }
+    .navbar-static-side {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .beforel .mini {
+        display: block !important;
+    }
+    .beforel .big {
+        display: none;
+    }
+    /* ------------------------------17-sep */
+    .searchDrop {
+        min-width: 270px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .log-container {
+        padding: 2rem 1rem !important;
+    }
+    form.metadata {
+        padding: 1rem !important;
+    }
+    #top-search {
+        padding-left: 10px !important;
+    }
+    .searchImg {
+        display: none;
+    }
+    /* -------------------------------18-sep */
+    .card-img-top {
+        max-width: 100%;
+        max-height: inherit;
+    }
+    .card-deck .card {
+        max-width: 100%;
+        max-height: inherit;
+    }
+    form.search input {
+        padding-left: 15px !important;
+    }
+    /* -------------------------------/18-sep */
+}
+
+@media only screen and (max-width: 396px) {
+    .fixHeight {
+        max-height: calc(100vh - 350px) !important;
+    }
+    .table-responsive.fixHeight {
+        max-height: calc(100vh - 270px) !important;
+    }
+}
+
+@media only screen and (max-width: 1774px) {
+    .next-margin {
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #createTemp {
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    .newDoc {
+        display: none;
+    }
+    #createTemp.viewTemp {
+        overflow: hidden;
+    }
+    #createTemplateright .nav {
+        border-top: .5px solid #dadada;
+        padding-top: 15px;
+    }
+    .wrapper-content {
+        padding: 70px 20px 40px;
+    }
+    #createTemplateleft .fixHeight,
+    #createTemplateright .fixHeight,
+    #editTemplateleft .fixHeight,
+    #editTemplateright .fixHeight,
+    #createTemplateright .tab-content,
+    #editTemplateright .tab-content {
+        min-height: auto !important;
+        /* max-height: auto !important; */
+    }
+}
